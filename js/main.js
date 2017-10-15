@@ -16,8 +16,8 @@ function initMap() {
   var onChangeHandler = function() {
          calculateAndDisplayRoute(directionsService, directionsDisplay);
         };
-        document.getElementById('start').addEventListener('change', onChangeHandler);
-        document.getElementById('end').addEventListener('change', onChangeHandler);
+        document.getElementById('search').addEventListener('click', onChangeHandler);
+        document.getElementById('search').addEventListener('click', onChangeHandler);
       }
 
   function calculateAndDisplayRoute(directionsService, directionsDisplay) {
